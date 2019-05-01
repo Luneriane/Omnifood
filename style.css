@@ -1,23 +1,33 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
 }
 
-/* header {
-    padding: 1em;
-} */
+header {
+    height: 50vh;
+    background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("./Images/hero-min.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
 
 nav {
     position: relative;
     top: 0;
     width: 100%;
-    background-color: rgba(0, 0, 0, 0.5);
+    padding: 0 13em;
+    text-transform: uppercase;
 }
 
 nav img {
-    margin: 0.5em;
-    height: 3em;
+    margin: 1em;
+    height: 6.5em;
     float: left;
+    filter: invert(100%);
 }
 
 nav ul {
@@ -25,7 +35,7 @@ nav ul {
     flex-flow: row nowrap;
     justify-content: flex-end;
     align-items: center;
-    height: 4em;
+    height: 8.5em;
 }
 
 nav ul li {
@@ -33,9 +43,44 @@ nav ul li {
     list-style: none;
 }
 
+.headerNavA {
+    padding: 0.5em;
+    text-decoration: none;
+    color: white;
+}
+.headerNavA:hover {
+    color: white;
+    border-bottom: solid 0.15em orange;
+}
+
+header p {
+    padding: 0 6em;
+    font-size: 2.5em;
+    color: white;
+    text-transform: uppercase;
+}
+
+.headerA {
+    font-size: 0.4em;
+    border: solid 0.1em orange;
+    border-radius: 2em;
+    padding: 0.75em 2em;
+    background-color: transparent;
+    color: orange;
+    text-decoration: none;
+}
+.headerA:hover {
+    background-color: orange;
+    color: white;
+}
+
 section {
     display: flex;
     flex-flow: row wrap;
+}
+
+h2 {
+    text-transform: uppercase;
 }
 
 article {
@@ -95,7 +140,7 @@ footer {
     content: '"';
 }
 
-.prices section{
+#prices article section{
     background-color: burlywood;
 }
 
