@@ -1,0 +1,107 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* header {
+    padding: 1em;
+} */
+
+nav {
+    position: relative;
+    top: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+nav img {
+    margin: 0.5em;
+    height: 3em;
+    float: left;
+}
+
+nav ul {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 4em;
+}
+
+nav ul li {
+    margin: 1em;
+    list-style: none;
+}
+
+section {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+article {
+    width: 30%;
+    box-shadow: 0 0 1em black;
+}
+
+h1, h2, h3 {
+    display: block;
+    width: 100%;
+}
+
+p {
+    padding: 0.5em;
+}
+
+mark {
+    font-size: 2em;
+}
+
+footer {
+    background-color: teal;
+}
+
+.backgroundImg {
+    background-color: darkslategrey;
+    background-position: cover;
+}
+
+.backgroundBlanc {
+    background-color: white;
+}
+
+.backgroundGris {
+    background-color: grey;
+}
+
+.imgContainer {
+    overflow: hidden;
+}
+
+.smile {
+    list-style-image: url("");
+}
+.star {
+    list-style-image: url("");
+}
+.bird {
+    list-style-image: url("");
+}
+
+.customers p {
+    font-style: italic;
+}
+
+.customers p::before {
+    content: '"';
+}
+
+.prices section{
+    background-color: burlywood;
+}
+
+.checked {
+    list-style-image: url("");
+}
+.notChecked {
+    list-style-image: url("");
+}
